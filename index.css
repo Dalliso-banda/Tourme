@@ -1,0 +1,67 @@
+.green{
+    color: #71af3afe;
+    font: 'sans','poping';
+}
+.blue{
+    color: ##1d2eaffe;
+}
+.red{
+    color: red;
+}
+
+ul li{
+    color: black;
+    margin-right: 1px;
+}
+ul li a{
+    margin: 50px;
+    margin-left: 30%;
+    
+}
+.container-fluid{
+     
+}
+.profile{
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 10%;
+    display: inline-block;
+   
+    
+}
+.profile img{
+    clip-path: circle(50%);
+    width: 10vw;
+}
+.profile .posting{
+    float: right;
+}
+.feeds{
+    margin-left: 2%;
+    font-size: small;
+}
+.feeds img{
+    width: 90%;
+    aspect-ratio: 16/9;
+    box-shadow: 0px 10px 20px black;
+    background: black;
+    animation-name: show;
+    animation-duration: 3s;
+    animation-direction: ease-in;
+    
+}
+.feeds a{
+    font: 2px;
+    
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+        transform: rotatey(45deg);
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+}
